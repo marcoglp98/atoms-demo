@@ -1,4 +1,6 @@
+import Main from "./pages/Main";
+
 const App = () => {
-    return <h1 className="text-green-500">test</h1>
+    return <Main></Main>
     }
 export default App;
