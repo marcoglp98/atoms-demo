@@ -5,3 +5,7 @@
 body {
   background-color: #f4f4f4;
 }
+
+.bg-roccella {
+  background-image: url("/src/resources/backgrounds/roccella.jpg")
+}
