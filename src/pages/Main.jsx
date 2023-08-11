@@ -3,6 +3,7 @@ import NewsFilter from "../components/large/NewsFilter";
 import NewsContainer from "../components/large/NewsContainer";
 import SupportBanner from "../components/small/SupportBanner";
 import SecondNewsContainer from "../components/large/SecondNewsCont";
+import Footer from "../components/large/Footer";
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <NewsContainer></NewsContainer>
       <SupportBanner></SupportBanner>   
      <SecondNewsContainer></SecondNewsContainer>
+    <Footer></Footer>
     </>
   );
 };
