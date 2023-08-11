@@ -1,13 +1,19 @@
 const NewsCard = (props) => {
   return (
-    <div>
+    <div className="relative">
       <div className="border border-gray-600">
-        <img className={props.sizes} src={props.image} alt="" />
-        <div className="absolute bottom-40 left-0 px-6 py-4 bg-white h-max w-max m-5 border rounded-xl text-center">
-          <p className="text-xs">MIGRANTI</p>
-        </div>
-        <div className="absolute bottom-20 left-0 px-6 py-4">
-          <p className="text-white text-4xl font-bold">{props.title}</p>
+        <img className={`${props.sizes} brightness-50`} src={props.image} alt="" />
+
+        <div className=" font-bold absolute bottom-1 left-2 p-5">
+          <div className="flex text-[10px] mb-3">
+            <p className="rounded-xl border-4 bg-white p-1">{props.subject}</p>
+          </div>
+           <p className="text-4xl text-white">{props.title}</p>
+          <div className="p-5"> <img className="h-[50px] w-[50px] border rounded-full" src={props.authPic} alt="" />
+      <p className="p-4 text-white">Di {props.authName}</p>
+      <p className="ml-10 text-white text-xs">{props.date}</p>
+      </div>
+         
         </div>
       </div>
     </div>
