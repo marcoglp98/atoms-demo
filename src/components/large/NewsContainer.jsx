@@ -8,7 +8,7 @@ import ukraine from "../../resources/backgrounds/ukraine.jpg"
 const NewsContainer = () => {
   return (
     <div className=" grid grid-cols-2 gap-1 mt-20 p-3">
-      <div className="  max-h-[80vh] col-span-2 ">
+      <div className="  max-h-[100vh] col-span-2 ">
         <NewsCard position="bottom-1 left-2 p-5 max-h-[100vh]" subject="Migranti" authPic= {fausto} authName="Alessandro Puglia" date="29 Giugno 2022" title="Roccella Jonica, la Lampedusa che l'Italia ignora" sizes="h-[80vh] w-[100vw]" image={roccella}></NewsCard>
       </div>
       <div className=" max-h-[68vh] col-span-1 ">

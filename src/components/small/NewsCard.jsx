@@ -9,8 +9,8 @@ const NewsCard = (props) => {
         />
 
         <div className={`${props.position} font-bold absolute`}>
-          <div className="flex min-w-0 text-[10px] mb-3">
-            <p className="rounded-xl border-4 bg-white p-1">{props.subject}</p>
+          <div className="flex min-w-0 text-[8px] mb-3">
+            <p className="uppercase rounded-xl border-4 bg-white p-1">{props.subject}</p>
           </div>
           <p className="text-4xl text-white">{props.title}</p>
           <div className="p-5">
