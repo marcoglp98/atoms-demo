@@ -1,6 +1,6 @@
 const NewsBar = () => {
   return (
-    <div className="flex flex-row justify-between border-b border-b-gray-600">
+    <div className="sm:flex hidden flex-row justify-between border-b border-b-gray-600">
       <div className="flex flex-row">
         <p className="mt-5 ml-5 mr-5 pb-4 font-bold hover:border-b-4 border-red-600">
           Tutti i temi

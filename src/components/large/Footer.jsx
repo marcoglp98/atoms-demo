@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="flex flex-row justify-between mt-6">
-      <div className="flex flex-row text-sm font-semibold">
+      <div className="flex sm:flex-row flex-col font-semibold">
         <p className="m-4">Il Gruppo</p>
         <p className="m-4">Note Legali</p>
         <p className="m-4">Chi Siamo</p>

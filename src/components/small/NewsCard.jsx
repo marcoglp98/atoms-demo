@@ -1,18 +1,18 @@
 const NewsCard = (props) => {
   return (
-    <div className="relative">
-      <div className="border border-gray-600">
+    <div className="relative mob:shadow-2xl">
+      <div className="mob:rounded-xl border border-gray-600">
         <img
-          className={`${props.sizes} brightness-50`}
+          className={`${props.sizes} brightness-50 mob:rounded-xl`}
           src={props.image}
           alt=""
         />
 
         <div className={`${props.position} font-bold absolute`}>
-          <div className="flex min-w-0 text-[8px] mb-3">
+          <div className="flex text-[8px] mb-3">
             <p className="uppercase rounded-xl border-4 bg-white p-1">{props.subject}</p>
           </div>
-          <p className="text-4xl text-white">{props.title}</p>
+          <p className="mob:text-3xl sm:text-xl 2xl:text-5xl text-white">{props.title}</p>
           <div className="p-5">
             {" "}
             <img

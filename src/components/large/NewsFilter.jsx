@@ -1,11 +1,11 @@
 import Filter from "../small/Filter";
 
 const NewsFilter = () =>{
-    return <div className="ml-5 mt-8 flex flex-row justify-between">
+    return <div className="ml-5 mt-8 flex sm:flex-row flex-col justify-between">
 <div >
-<h1 className="text-5xl font-bold">Tutti i temi</h1>    
+<h1 className="sm:text-5xl text-4xl font-bold">Tutti i temi</h1>    
 </div>
-    <div className="flex flex-row">
+    <div className="flex flex-col sm:flex-row">
     <Filter color="bg-green-100" name="AMBIENTE"></Filter>
     <Filter color="bg-white" name="ECONOMIA"></Filter>
     <Filter color="bg-red-100" name="MONDO"></Filter>

@@ -15,7 +15,7 @@ import fruit from "../../resources/backgrounds/fruit.jpg";
 import sicily from "../../resources/backgrounds/sicily.jpg";
 const SecondNewsCont = () => {
   return (
-    <div className=" grid grid-cols-6 gap-1 mt-20 p-3">
+    <div className=" sm:grid grid-cols-6 flex flex-col gap-1 mt-20 p-3 mob:gap-y-10 mob:text-2xl">
       <div className="  max-h-[60vh] col-span-2 ">
         <NewsCard
           position="bottom-1 left-2 p-5 max-h-[100vh]"
@@ -24,7 +24,7 @@ const SecondNewsCont = () => {
           authName="Redazione"
           date="13 Luglio 2022"
           title="“Qui Odessa”, fotografie, progetti e solidarietà"
-          sizes="h-[60vh] w-[100vw]"
+          sizes="h-[60vh] w-[100vw] mob:h-[50vh]"
           image={odessa}
         ></NewsCard>
       </div>
@@ -36,7 +36,7 @@ const SecondNewsCont = () => {
           authName="Luca Cereda"
           date="13 Luglio 2022"
           title="Storie fra ragazzi permeate di violenza. A Napoli 12enne sfregiata da 17enne"
-          sizes="h-[60vh] w-[100vw]"
+          sizes="h-[60vh] w-[100vw] mob:h-[50vh]"
           image={violence}
         ></NewsCard>
       </div>
@@ -48,7 +48,7 @@ const SecondNewsCont = () => {
           authName="Emiliano Moccia"
           date="12 Luglio 2022"
           title="“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento"
-          sizes="h-[60vh] w-[100vw]"
+          sizes="h-[60vh] w-[100vw] mob:h-[50vh]"
           image={meeting}
         ></NewsCard>
       </div>
@@ -60,7 +60,7 @@ const SecondNewsCont = () => {
           authName="Diletta Grella"
           date="7 Luglio 2022"
           title="Troppi abusi nello sport minorile, il governo interviene"
-          sizes="h-[50vh] w-[100vw]"
+          sizes="h-[50vh] w-[100vw] mob:h-[50vh]"
           image={abuse}
         ></NewsCard>
       </div>
@@ -72,7 +72,7 @@ const SecondNewsCont = () => {
           authName="Anna Spena"
           date="7 Luglio 2022"
           title="Donne e nuove generazioni: con loro riparte l’Italia"
-          sizes="h-[50vh] w-[100vw]"
+          sizes="h-[50vh] w-[100vw] mob:h-[50vh]"
           image={woman}
         ></NewsCard>
       </div>
@@ -105,7 +105,7 @@ const SecondNewsCont = () => {
           authName="Giovanni Gavardi"
           date="3 Luglio 2022"
           title="La Kasbah mazarese nella quale si gusta la cultura araba"
-          sizes="h-[80vh] w-[100vw]"
+          sizes="h-[80vh] w-[100vw] mob:h-[50vh]"
           image={food}
         ></NewsCard>
       </div>
@@ -117,7 +117,7 @@ const SecondNewsCont = () => {
           authName="Redazione"
           date="13 Luglio 2022"
           title="“Qui Odessa”, fotografie, progetti e solidarietà"
-          sizes="h-[60vh] w-[100vw]"
+          sizes="h-[60vh] w-[100vw] mob:h-[50vh]"
           image={odessa}
         ></NewsCard>
       </div>
@@ -130,7 +130,7 @@ const SecondNewsCont = () => {
           authName="Emiliano Moccia"
           date="12 Luglio 2022"
           title="“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento"
-          sizes="h-[60vh] w-[100vw]"
+          sizes="h-[60vh] w-[100vw] mob:h-[50vh]"
           image={meeting}
         ></NewsCard>
       </div>
@@ -142,11 +142,11 @@ const SecondNewsCont = () => {
           authName="Luca Cereda"
           date="13 Luglio 2022"
           title="Storie fra ragazzi permeate di violenza. A Napoli 12enne sfregiata da 17enne"
-          sizes="h-[60vh] w-[100vw]"
+          sizes="h-[60vh] w-[100vw] mob:h-[50vh]"
           image={violence}
         ></NewsCard>
       </div>
-      <div className="  max-h-[0vh] w-[vw] col-start-4 col-span-3 ">
+      <div className="mob:max-h[60vh]  sm:max-h-[0vh] w-[vw] col-start-4 col-span-3 ">
         <NewsCard
           position="bottom-1 left-2 p-5 max-h-[50vh]"
           subject="Ucraina"
@@ -154,11 +154,11 @@ const SecondNewsCont = () => {
           authName="Anna Spena"
           date="14 Luglio 2022"
           title="Leopoli, andata + ritorno"
-          sizes="h-[102vh] w-[100vw]"
+          sizes="h-[102vh] w-[100vw] mob:h-[50vh]"
           image={odessa}
         ></NewsCard>
       </div>
-      <div className="max-h-[25vh] col-start-1 col-end-4 ">
+      <div className="mob:max-h-[60vh] max-h-[25vh] col-start-1 col-end-4 ">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Innovazione"
@@ -166,12 +166,12 @@ const SecondNewsCont = () => {
           authName="Luca Cereda"
           date="13 Luglio 2022"
           title="Gli anziani del Sicomoro spopolano su TikTok"
-          sizes="h-[30vh] w-[100vw]"
+          sizes="h-[30vh] w-[100vw] mob:h-[50vh]"
           image={old}
         ></NewsCard>
       </div>
 
-      <div className="  max-h-[25vh] w-[vw] col-start-1 col-end-4">
+      <div className=" mob:max-h-[60vh] max-h-[25vh] w-[vw] col-start-1 col-end-4">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Disabilità"
@@ -179,11 +179,11 @@ const SecondNewsCont = () => {
           authName="Luca Cereda"
           date="13 Luglio 2022"
           title="Emergenza sordi: quando un'app ti salva la vita"
-          sizes="h-[30vh] w-[100vw]"
+          sizes="h-[30vh] w-[100vw] mob:h-[50vh]"
           image={life}
         ></NewsCard>
       </div>
-      <div className=" max-h-[25vh] w-[vw] col-start-1 col-end-4 ">
+      <div className="mob:max-h-[60vh] max-h-[25vh] w-[vw] col-start-1 col-end-4 ">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Traiettorie"
@@ -191,12 +191,12 @@ const SecondNewsCont = () => {
           authName="Luca Cereda"
           date="13 Luglio 2022"
           title="Diego, il fruttivendolo che ha scelto la cooperazione sociale"
-          sizes="h-[30vh] w-[100vw]"
+          sizes="h-[30vh] w-[100vw] mob:h-[50vh]"
           image={fruit}
         ></NewsCard>
       </div>
 
-      <div className=" max-h-[25vh] w-[vw] col-start-1 col-end-4 ">
+      <div className="mob:max-h-[60vh] max-h-[25vh] w-[vw] col-start-1 col-end-4 ">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Sociale"
@@ -204,7 +204,7 @@ const SecondNewsCont = () => {
           authName="Luca Cereda"
           date="13 Luglio 2022"
           title="Pedalare Sicily Coast to Coast per essere più inclusivi"
-          sizes="h-[25vh] w-[100vw]"
+          sizes="h-[25vh] w-[100vw] mob:h-[50vh]"
           image={sicily}
         ></NewsCard>
       </div>
