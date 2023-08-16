@@ -16,8 +16,8 @@ import sicily from "../../resources/backgrounds/sicily.jpg";
 
 const SecondNewsCont = () => {
   return (
-    <div className=" sm:grid grid-cols-6 flex flex-col gap-1 mt-20 p-3 mob:gap-y-10 mob:text-2xl">
-      <div className="  max-h-[60vh] col-span-2 ">
+    <div className="sm:grid grid-cols-6 flex flex-col gap-1 mt-20 p-3 mob:gap-y-10 mob:text-2xl">
+      <div className="max-h-[60vh] col-span-2">
         <NewsCard
           position="bottom-1 left-2 p-5 max-h-[100vh]"
           subject="Progetto Arca"
@@ -29,7 +29,7 @@ const SecondNewsCont = () => {
           image={odessa}
         ></NewsCard>
       </div>
-      <div className="  max-h-[60vh] col-span-2 ">
+      <div className="max-h-[60vh] col-span-2">
         <NewsCard
           position="bottom-1 left-2 p-1 max-h-[100vh]"
           subject="Adolescenti"
@@ -41,7 +41,7 @@ const SecondNewsCont = () => {
           image={violence}
         ></NewsCard>
       </div>
-      <div className=" max-h-[60vh] col-span-2 ">
+      <div className="max-h-[60vh] col-span-2 ">
         <NewsCard
           position="bottom-1 left-2 p-1 max-h-[100vh]"
           subject="Economia Civile"
@@ -53,7 +53,7 @@ const SecondNewsCont = () => {
           image={meeting}
         ></NewsCard>
       </div>
-      <div className=" max-h-[50vh] col-span-2">
+      <div className="max-h-[50vh] col-span-2">
         <NewsCard
           position="bottom-1 top-2 left-2 max-h-[50vh]"
           subject="Sport"
@@ -65,7 +65,7 @@ const SecondNewsCont = () => {
           image={abuse}
         ></NewsCard>
       </div>
-      <div className="  max-h-[50vh] col-span-4">
+      <div className="max-h-[50vh] col-span-4">
         <NewsCard
           position="bottom-1 left-2 p-5 max-h-[50vh]"
           subject="Società"
@@ -83,22 +83,22 @@ const SecondNewsCont = () => {
       <div className="max-h-[40vh] col-span-1">
         <BlogBanner></BlogBanner>
       </div>
-      <div className="  max-h-[40vh] col-span-1">
+      <div className="max-h-[40vh] col-span-1">
         <BlogBanner></BlogBanner>
       </div>
-      <div className="  max-h-[40vh] col-span-1">
+      <div className="max-h-[40vh] col-span-1">
         <BlogBanner></BlogBanner>
       </div>
-      <div className="  max-h-[40vh] col-span-1">
+      <div className="max-h-[40vh] col-span-1">
         <BlogBanner></BlogBanner>
       </div>
-      <div className="  max-h-[40vh] col-span-1">
+      <div className="max-h-[40vh] col-span-1">
         <BlogBanner></BlogBanner>
       </div>
-      <div className="  max-h-[40vh] col-span-1">
+      <div className="max-h-[40vh] col-span-1">
         <BlogBanner></BlogBanner>
       </div>
-      <div className="  max-h-[80vh] col-span-6">
+      <div className="max-h-[80vh] col-span-6">
         <NewsCard
           position="top-12 right-2 p-5 max-h-[50vh]"
           subject="Impresa Sociale"
@@ -110,7 +110,7 @@ const SecondNewsCont = () => {
           image={food}
         ></NewsCard>
       </div>
-      <div className="  max-h-[60vh] col-span-2 ">
+      <div className="max-h-[60vh] col-span-2">
         <NewsCard
           position="bottom-1 left-2 p-5 max-h-[100vh]"
           subject="Progetto Arca"
@@ -123,7 +123,7 @@ const SecondNewsCont = () => {
         ></NewsCard>
       </div>
 
-      <div className="  max-h-[60vh] col-span-2 ">
+      <div className="max-h-[60vh] col-span-2">
         <NewsCard
           position="bottom-1 left-2 p-1 max-h-[100vh]"
           subject="Economia Civile"
@@ -135,7 +135,7 @@ const SecondNewsCont = () => {
           image={meeting}
         ></NewsCard>
       </div>
-      <div className="  max-h-[60vh] w-[vw] col-span-2 ">
+      <div className="max-h-[60vh] w-[vw] col-span-2">
         <NewsCard
           position="bottom-1 left-2 p-1 max-h-[100vh]"
           subject="Adolescenti"
@@ -147,7 +147,7 @@ const SecondNewsCont = () => {
           image={violence}
         ></NewsCard>
       </div>
-      <div className="mob:max-h[60vh]  sm:max-h-[0vh] w-[vw] col-start-4 col-span-3 ">
+      <div className="mob:max-h[60vh] sm:max-h-[0vh] col-start-4 col-span-3">
         <NewsCard
           position="bottom-1 left-2 p-5 max-h-[50vh]"
           subject="Ucraina"
@@ -172,7 +172,7 @@ const SecondNewsCont = () => {
         ></NewsCard>
       </div>
 
-      <div className=" mob:max-h-[60vh] sm:max-h-[25vh]  col-start-1 col-end-4">
+      <div className="mob:max-h-[60vh] sm:max-h-[25vh] col-start-1 col-end-4">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Disabilità"
@@ -184,7 +184,7 @@ const SecondNewsCont = () => {
           image={life}
         ></NewsCard>
       </div>
-      <div className="mob:max-h-[60vh] sm:max-h-[25vh] w-[vw] col-start-1 col-end-4 ">
+      <div className="mob:max-h-[60vh] sm:max-h-[25vh] col-start-1 col-end-4">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Traiettorie"
@@ -197,7 +197,7 @@ const SecondNewsCont = () => {
         ></NewsCard>
       </div>
 
-      <div className="mob:max-h-[60vh] sm:max-h-[25vh] w-[vw] col-start-1 col-end-4 ">
+      <div className="mob:max-h-[60vh] sm:max-h-[25vh] col-start-1 col-end-4">
         <NewsCard
           position="top-1 p-1 max-h-[100vh]"
           subject="Sociale"

@@ -5,7 +5,7 @@ const LoginBar = () => {
         <p className="ml-6 mt-1 mb-2">contribuisci</p>
         <p className="ml-6 mt-1 mb-2">abbonati</p>
       </div>
-      <div className="">
+      <div>
         <p className="mr-8 mt-1 mb-2">accedi</p>
       </div>
     </div>

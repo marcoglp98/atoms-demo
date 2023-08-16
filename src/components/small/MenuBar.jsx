@@ -6,7 +6,7 @@ const MenuBar = () => {
         <Hamburger></Hamburger>
       </div>
       <div className="border-l border-l-black">
-        <p className="ml-6 mt-4 mb-3 pr-4">Search</p>
+        <p className="ml-6 mt-4 mb-3 pr-4 hover:text-red-400">Cerca</p>
       </div>
     </div>
   );

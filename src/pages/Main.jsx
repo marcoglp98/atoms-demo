@@ -11,9 +11,9 @@ const Main = () => {
       <TopBar></TopBar>
       <NewsFilter></NewsFilter>
       <NewsContainer></NewsContainer>
-      <SupportBanner></SupportBanner>   
-     <SecondNewsContainer></SecondNewsContainer>
-    <Footer></Footer>
+      <SupportBanner></SupportBanner>
+      <SecondNewsContainer></SecondNewsContainer>
+      <Footer></Footer>
     </>
   );
 };

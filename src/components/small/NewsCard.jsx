@@ -10,9 +10,13 @@ const NewsCard = (props) => {
 
         <div className={`${props.position} font-bold absolute mob:p-1`}>
           <div className="flex  text-[8px] mb-3">
-            <p className="uppercase rounded-xl border-4 bg-white p-1">{props.subject}</p>
+            <p className="uppercase rounded-xl border-4 bg-white p-1">
+              {props.subject}
+            </p>
           </div>
-          <p className="mob:text-3xl sm:text-xl 2xl:text-5xl text-white">{props.title}</p>
+          <p className="mob:text-3xl sm:text-xl 2xl:text-5xl text-white">
+            {props.title}
+          </p>
           <div className="p-5">
             {" "}
             <img
